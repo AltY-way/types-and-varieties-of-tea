@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body{
+    background-color: #eee;
+    font-family: "Roboto", sans-serif;
+font-size: 20px;
+font-weight: 400;
+text-align: center;
+max-width: 1000px;
+margin: auto;
+}
+
+.text1{
+background: rgb(165, 207, 165);
+color: white;
+border-radius: 10px;
+}
+
+.end{
+background: rgb(192, 192, 238);
+color: white;
+border-radius: 10px;
+padding-bottom: 10px;
+}
+.btn{
+    background: rgb(155, 93, 155);
+    padding: 15px 20px;
+    border-radius: 10px;
+    color: white;
+    cursor:pointer ;
+    border: none;
+}
+.btn:hover{
+ opacity: 0.8;   
+}
+
+.main{
+    border-radius: 10px;  
+color: rgba(0, 0, 0, 0.534);
+text-align: center;
+}
+
+.table{
+width: 100%;
+cursor: pointer;
+
+
+}
+.table td{
+ padding-bottom: 10px;   
+}
+.table td:hover{
+ background: #bdbfda;   
+}
+.table tr:nth-child(odd){
+ background: #92c5c5;   
+}
+
+
+
+
+.img1 {
+ display: block;  
+ margin: auto; 
+border-radius: 10%;
+box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+
+
+a{
+ color: #111;  
+text-decoration: none;
+}
+a:hover{
+ color: rgb(97, 97, 243);   
+}
+.navbar{
+ background: rgb(236, 208, 208);   
+/* padding: 10px 20px; */
+position: fixed;
+ right: 0;
+ left: 800px; 
+top: 0;
+/* border: 2px solid #111; */
+
+
+}
+.navbar ul{
+list-style: none;    
+padding: 0;
+margin: 0;
+display: flex;
+}
+.navbar ul li{
+ margin-left: 10px; 
+ padding:20px;  
+}
+.navbar ul li:hover{
+ background: #92c5c5;   
+border-radius: 20px;
+}
+.main h1{ margin-top: 80px;}
+
+@media(max-width: 1250px){
+ .navbar{
+    display: block;
+    right: 0;
+    left: 0;
+ }   
+
+}
+
+
+
+.teamaster{
+    width: 800px;
+    margin: auto; }
+   .avatar1 {width: 900px;}
+   
+   .pincha {
+    height: 600px; 
+    width: 1000px;}
+    
+   
+    
+   .bg-yellow {
+       background: #fff9dc;
+   }
+   .bg-green {
+       background: #e5ffe7;
+   }
+   
+   .card {
+   margin-bottom: 15px;
+   border-radius: 20px;}
+    
+   a {
+   color: black;
+   }
+   .origin{ 
+    margin-top: 30px; 
+    margin-bottom: 30px; 
+   }
+   .origin h2 {
+    margin-left: 200px;   
+   }
+   .gaiwan{
+    border-radius: 28px; 
+    margin: auto;
+    display: block;   
+   }
+   .fontgaiwan{
+    font-style: italic;
+    color: gray;  
+   margin-top: 0%;
+   text-align: center;
+   }
+   .chahi{
+    font-style: italic; 
+    color: gray;
+    margin-top: 0%;
+    text-align: center;
+   }
+   .pial{
+   font-style: italic; 
+   color: gray;
+   margin-top: 0%;
+   text-align: center;   
+   }
+   .chaban{
+   font-style: italic; 
+   color: gray;
+   margin-top: 0%;
+   text-align: center;      
+   }
+   .principle{
+    text-align: center;
+    font-style: unset;   }
+.type{
+list-style: none; 
+background: rgb(165, 207, 165);   
+}
+.contry{
+    list-style: none;
+}
